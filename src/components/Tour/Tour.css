@@ -1,0 +1,134 @@
+.tour {
+    min-height: max-content;
+    width: 23%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 31px;
+    margin-bottom: 31px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+}
+
+.tour__img,
+.tour__text {
+    width: 100%;
+}
+
+.tour__img,
+.tour__btn {
+    transition: all 0.1s;
+}
+
+.tour__img {
+    height: 300px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tour__text,
+.tour__p {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.tour__text {
+    height: 200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
+
+.tour__img:hover .tour__btn-delete {
+    opacity: 70%;
+    visibility: visible;
+    z-index: 5;
+}
+
+.tour__btn {
+    height: max-content;
+    width: max-content;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.tour__btn:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.tour__btn:active {
+    filter: brightness(90%);
+}
+
+.tour__btn-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    width: 20%;
+}
+
+.tour__btn-delete {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    opacity: 0%;
+    visibility: hidden;
+    z-index: -5;
+    transition: all 0.3s;
+}
+
+.tour__h1,
+.tour__h2,
+.tour__h3,
+.tour__p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tour__h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(97,218,251);
+}
+
+.tour__h2,
+.tour__h3 {
+    color: rgb(42, 42, 42);
+}
+
+.tour__h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.tour__h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tour__p {
+    height: max-content;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: start;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+}
+
+.tour__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour__hidden {
+    display: none;
+    opacity: 0%;
+    visibility: hidden;
+}

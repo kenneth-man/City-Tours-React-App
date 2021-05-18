@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 8%;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    padding-left: 30px;
+}
+
+.navbar__logo {
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+
+.navbar__link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 0px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 19.85vw;
+    margin-bottom: 5px;
+}
+
+.navbar__link:hover {
+    filter: brightness(80%);
+}
+
+.navbar__link:active {
+    filter: brightness(90%);
+}
+
+.navbar__link-selected {
+    color: rgb(97,218,251);
+}

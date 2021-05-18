@@ -1,0 +1,67 @@
+.home {
+    position: relative;
+    height: max-content;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home__video {
+    /*'navbar' height is 8%, so 92vh will fit exactly entire screen height wise*/
+    height: 92vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(65%);
+}
+
+.home__titles {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 350px;
+    width: max-content;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__btn,
+.home__h1,
+.home__h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home__btn {
+    height: max-content;
+    width: max-content;
+    padding: 5px 15px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(97,218,251);
+    transition: all 0.2s;
+}
+
+.home__btn:hover {
+    background-color:rgba(97,218,251,0.7);
+    color: #fff;
+}
+
+.home__h1 {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 100px;
+    color: rgba(97,218,251,0.7);
+}
+
+.home__h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.home__column {
+    display: flex;
+    flex-direction: column;
+}

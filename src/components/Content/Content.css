@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 92vh;
+    height: max-content;
+    width: 100%;
+    padding: 25px 0px;
+    background-color: rgb(241, 241, 241);
+}
